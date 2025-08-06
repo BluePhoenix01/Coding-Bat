@@ -1,3 +1,7 @@
+'''
+Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
+'''
+
 def countHi(str):
     if len(str) == 0:
         return 0

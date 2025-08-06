@@ -1,3 +1,7 @@
+'''
+Given a string, compute recursively (no loops) the number of lowercase 'x' chars in the string.
+'''
+
 def countX(str):
     if len(str) == 0:
         return 0

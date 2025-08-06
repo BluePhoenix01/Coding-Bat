@@ -1,3 +1,7 @@
+'''
+Count recursively the total number of "abc" and "aba" substrings that appear in the given string.
+'''
+
 def countAbc(str):
     if len(str) == 2:
         return 0

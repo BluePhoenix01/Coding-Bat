@@ -1,3 +1,7 @@
+'''
+Given a string, compute recursively a new string where all the adjacent chars are now separated by a "*".
+'''
+
 def allStar(str):
     if len(str) <= 1:
         return str

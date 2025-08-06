@@ -1,3 +1,7 @@
+'''
+Given a string, compute recursively (no loops) the number of "11" substrings in the string. The "11" substrings should not overlap.
+'''
+
 def count11(str):
     if len(str) == 1:
         return 0

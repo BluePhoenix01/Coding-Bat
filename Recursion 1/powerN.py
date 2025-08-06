@@ -1,3 +1,7 @@
+'''
+Given base and n that are both 1 or more, compute recursively (no loops) the value of base to the n power, so powerN(3, 2) is 9 (3 squared).
+'''
+
 def powerN(base, n):
     if n == 0:
         return 1
@@ -6,4 +10,4 @@ def powerN(base, n):
     
 print(powerN(2, 3))
 print(powerN(3, 3))
-print(powerN(4, 3))
+print(powerN(4, 400))

@@ -1,3 +1,7 @@
+'''
+Given a string, compute recursively (no loops) a new string where all appearances of "pi" have been replaced by "3.14".
+'''
+
 def changePi(str):
     if len(str) == 0:
         return ""
